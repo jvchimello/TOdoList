@@ -1,0 +1,14 @@
+.area{
+    background-color: rgb(19, 18, 18);
+    border: 1px solid rgb(212, 6, 212);
+    color:rgb(212, 6, 212);
+}
+button{
+   border-radius:200px;
+   border: 1px solid rgb(212, 6, 212);
+}
+
+button:hover{
+    background-color:black;
+    color:rgb(212, 6, 212)
+}
