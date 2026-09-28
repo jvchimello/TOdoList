@@ -1,14 +1,25 @@
 .area{
     background-color: rgb(19, 18, 18);
-    border: 1px solid rgb(212, 6, 212);
-    color:rgb(212, 6, 212);
+    border: 2px solid rgb(9, 5, 247);
+    color:rgb(49, 96, 248);
+    font-family:"Alumni Sans", sans-serif;
+    font-size: clamp(0.5rem,1rem,2rem);
 }
 button{
    border-radius:200px;
-   border: 1px solid rgb(212, 6, 212);
+   border: 1px solid rgb(133, 130, 133);
 }
 
 button:hover{
     background-color:black;
-    color:rgb(212, 6, 212)
+    color:rgb(241, 239, 241)
+}
+ul li{
+    display:flex;
+    flex-direction: row;
+}
+img{
+    width:clamp(0.5rem,1rem,1rem);
+    height:clamp(0.5rem,1rem,1rem);
+   
 }
