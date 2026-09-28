@@ -1,18 +1,93 @@
+/* --- Opção 1: Dark Mode / Modern Cyber --- */
+:root {
+  --bg-main: #121214;
+  --bg-card: #1e1e24;
+  --text-primary: #e1e1e6;
+  --text-secondary: #a8a8b3;
+  --color-accent: #9333ea;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --border-color: #29292e;
+}
+
+/* --- Opção 2: Clean Modern & Light --- */
+/*
+:root {
+  --bg-main: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --color-accent: #2563eb;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --border-color: #e2e8f0;
+}
+*/
+
+/* --- Opção 3: Soft Pastel & Focused --- */
+/*
+:root {
+  --bg-main: #faf5ff;
+  --bg-card: #ffffff;
+  --text-primary: #2e1065;
+  --text-secondary: #7e22ce;
+  --color-accent: #a855f7;
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --border-color: #f3e8ff;
+}
+*/
+
+/* --- Opção 4: Minimalist Mono + Accent --- */
+/*
+:root {
+  --bg-main: #f3f4f6;
+  --bg-card: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --color-accent: #e11d48;
+  --color-success: #059669;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --border-color: #e5e7eb;
+}
+*/
+body{
+    background-color: #c9c9cf;
+}
 .area{
-    background-color: rgb(19, 18, 18);
-    border: 2px solid rgb(9, 5, 247);
-    color:rgb(49, 96, 248);
+    background: #121214;
+    border: 2px solid  #29292e;
+    color: #e1e1e6;
     font-family:"Alumni Sans", sans-serif;
     font-size: clamp(0.5rem,1rem,2rem);
+    width:50%;
+    position: relative;
+    left:25%;
+    top:5%;
+    margin:auto 0;
+    
+
 }
 button{
-   border-radius:200px;
+  
    border: 1px solid rgb(133, 130, 133);
+   width:15%;
+   height:10%;
+   cursor: pointer;    
+   transition: 0.5s;
 }
 
 button:hover{
     background-color:black;
-    color:rgb(241, 239, 241)
+    color:rgb(241, 239, 241);
+    width:18%;
+}
+button:active{
+    background-color: #7f7f81;
 }
 ul li{
     display:flex;
@@ -22,4 +97,26 @@ img{
     width:clamp(0.5rem,1rem,1rem);
     height:clamp(0.5rem,1rem,1rem);
    
+}
+span{
+    color:rgb(6, 61, 241)
+}
+input{
+    width:30%;
+}
+h1{
+    text-align: center;
+
+}
+ul{
+    list-style:none;
+
+}
+li{
+    background-color: #9333ea;
+    border:1px solid greenyellow;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
